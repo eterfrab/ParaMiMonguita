@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Franco Sejas
+fecha: Abril de 2021
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Te amo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="00-modelo.js"></script>
+    <script type="text/javascript">
+        var Quotation = new Array()
+        Quotation[0] = "Vale por 10 besitos";
+        Quotation[1] = "Si quieres nos vamos pal cuarto :O";
+        Quotation[2] = "Vale por 30 besitos";
+        Quotation[3] = "Vale por salir a la calle y hacer lo que quieras";
+        Quotation[4] = "Vale por una frase hecha por mi para ti";
+        Quotation[5] = "Vale por un almuerzo/cena hecho por mi";
+        Quotation[6] = "Vale por 100 besitos si me dejas respirar cada 10";
+        Quotation[7] = "Vale por dejar lo que este haciendo y hacer lo que te apetezca";
+        Quotation[8] = "Vale por morderte el culito";
+        Quotation[9] = "Vale por un cabezazo gratis";
+        Quotation[10] = "Es hora de temote :O";
+        Quotation[11] = "Vale por 20 te quieros dichos al momente";
+        Quotation[12] = "Si te sale esto me tienes que comprar una play5 :)";
+        Quotation[13] = "Vale por echar a la perra de la habitación";
+        Quotation[14] = "Pa fuera la perra ea";
+        Quotation[15] = "Usa este premio para tumbarnos y amormir abrazaditos";
+        Quotation[16] = "Usa este ticket para vernos el animu que tu quieras";
+        Quotation[17] = "Lo dices y lo hago";
+        Quotation[18] = "Vale por una duchita juntos :O";
+        Quotation[19] = "Usa este ticket para que te lama el higo :O";
+        Quotation[20] = "Vale por un abrazote largo largo";
+        Quotation[21] = "Vale por aceptar que soy cabezón :(";
+        Quotation[22] = "Usa este ticket para que vaya a comerte la carita";
+        Quotation[23] = "Vale por 1 besito en la frente :3";
+        Quotation[24] = "Ticket canjeable por quererte siempre";
+        Quotation[25] = "Puedes pegarme en el careto :(";
+        Quotation[26] = "Vale para vernos una peli";
+        Quotation[27] = "Canjea este ticket para darte 200 besitos";
+
+
+        var Q = Quotation.length;
+
+        var whichQuotation = Math.round(Math.random() * (Q - 1));
+
+        function showQuotation() {
+            document.write(Quotation[whichQuotation]);
+        }
+    </script>
+
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="cabeza">
+            <img src="./Web/12.jpg" class="imgCabeza">
+            <img src="./Web/1.jpg" class="imgCabeza">
+            <img src="./Web/11.jpg" class="imgCabeza">
+            <img src="./Web/17.jpg" class="imgCabeza">
+            <img src="./Web/20.jpg" class="imgCabeza">
+            <img src="./Web/21.jpg" class="imgCabeza">
+        </div>
+    </header>
+    <main>
+        <div class="textoCentral">
+            <h1>¡Feliz cumpleaños a la chica más bonita del mundo!</h1>
+        </div>
+        <div class="discurso">
+            <p class=parrafoTexto>Pues eso guapa, espero que tengas un feliz cumpleaños y que lo pases genial hoy, quería darte unas cuantas sorpresitas empezando por esta, es una página web que me puse a hacer hace un tiempito, me cuesta aún hacer estas cosas, así que espero
+                que te guste, la he hecho lo mejor que he podido. hay cosas de aquí que te voy a dar también en físico, y si la cosa ha ido bien tendrás las cosas hoy contigo :), feliz cumpleaños otra vez, espero que el siguiente pueda estar presente
+                contigo y no lejos :(, te echo de menos no te imaginas cuánto y no dejo de contar los días hasta que abran todo y poder vernos de una vez.</p>
+        </div>
+        <section class="services">
+            <div class="grid">
+                <div class="items">
+                    <div class="item">
+                        <h3 class="titulo-services">Lista de canciones que me recuerdan a tí guapa :3</h3>
+                        <a href="" class="cta" target="_blank">Clica para ir a la lista, a lo mejor tienes que entrar de vez en cuando para ver todo lo que voy metiendo :3</a>
+                    </div>
+                    <div class="item2">
+                        <p class="textoMedio">Esto es como un minijuego de lotería, hay 27 premios posibles, si quieres participar solo tienes que darle al F5 y el premio cambiará, no hay límite de tiradas :3</p><br><br>
+                        <script type="text/javascript">
+                            showQuotation();
+                        </script>
+                    </div>
+                    <div class="item">
+                        <h3 class="titulo-services">Esto ya es algo más serio, es un enlace a una carta que te escribo</h3><br><br>
+                        <a href="" class="cta" target="_blank">Clica y verás la carta :3</a>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div>
+            <h1>TE AMO MUCHO MUCHO MUCHO MUCHO MUCHO</h1>
+        </div>
+    </footer>
+
+</body>
+
+</html>
